@@ -1,0 +1,44 @@
+@import "variables";
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  background: $color-white;
+  width: 22rem;
+  padding: 1.2rem;
+  border-radius: 1.5rem;
+  align-items: center;
+}
+
+.qrCode{
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+}
+
+.title{
+  font-family: $fontFamily;
+  color: $color-dark-blue;
+  font-size: 1.45rem;
+  font-weight: 700;
+  text-align: center;
+  padding-inline: 1rem;
+  margin-top: 1.5rem;
+}
+
+.text{
+  font-family: $fontFamily;
+  font-weight: 400;
+  color: $color-grayish-blue;
+  text-align: center;  
+  padding-inline: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
